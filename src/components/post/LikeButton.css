@@ -1,0 +1,53 @@
+.like-section{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:15px;
+
+}
+
+.like-btn{
+
+    border:none;
+
+    background:transparent;
+
+    cursor:pointer;
+
+    font-size:28px;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.like-btn svg{
+
+    transition:.2s;
+
+}
+
+.like-btn:hover svg{
+
+    transform:scale(1.1);
+
+}
+
+.liked{
+
+    color:#ed4956;
+
+}
+
+.like-section span{
+
+    font-size:15px;
+
+    font-weight:500;
+
+}

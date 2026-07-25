@@ -1,0 +1,112 @@
+/* ==========================================
+   REGISTER FORM
+========================================== */
+
+.register-form{
+
+    width:100%;
+    max-width:460px;
+
+    background:#ffffff;
+
+    border-radius:28px;
+
+    padding:45px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:22px;
+
+    border:1px solid #ececec;
+
+    box-shadow:
+    0 20px 60px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.register-form:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 30px 70px rgba(0,0,0,.12);
+
+}
+
+.register-form h2{
+
+    font-size:36px;
+
+    text-align:center;
+
+    color:#222;
+
+    margin-bottom:5px;
+
+}
+
+.register-form p{
+
+    text-align:center;
+
+    color:#666;
+
+    font-size:15px;
+
+    margin-top:10px;
+
+}
+
+.register-form a{
+
+    color:#DD2A7B;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+    margin-left:6px;
+
+    transition:.3s;
+
+}
+
+.register-form a:hover{
+
+    color:#8134AF;
+
+}
+
+@media(max-width:768px){
+
+    .register-form{
+
+        padding:35px 25px;
+
+        border-radius:22px;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .register-form{
+
+        padding:25px 18px;
+
+        border-radius:18px;
+
+    }
+
+    .register-form h2{
+
+        font-size:28px;
+
+    }
+
+}

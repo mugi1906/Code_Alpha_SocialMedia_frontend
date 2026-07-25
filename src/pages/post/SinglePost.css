@@ -1,0 +1,15 @@
+.single-post-page{
+
+    max-width:700px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+    padding-bottom:30px;
+
+}

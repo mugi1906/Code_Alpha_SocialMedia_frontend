@@ -1,0 +1,35 @@
+.notifications-page{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+.notification-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.notification-header button{
+
+    padding:10px 18px;
+
+    border:none;
+
+    background:var(--primary-color);
+
+    color:#fff;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}

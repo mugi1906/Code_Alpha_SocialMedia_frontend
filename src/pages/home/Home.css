@@ -1,0 +1,15 @@
+.home{
+
+    width:100%;
+
+    max-width:650px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}

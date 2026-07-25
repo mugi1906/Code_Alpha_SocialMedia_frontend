@@ -1,0 +1,47 @@
+.search-page{
+
+    max-width:700px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.search-input{
+
+    width:100%;
+
+    padding:14px 18px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    outline:none;
+
+    font-size:15px;
+
+    background:#fff;
+
+}
+
+.search-input:focus{
+
+    border-color:#0095f6;
+
+}
+
+@media(max-width:768px){
+
+    .search-page{
+
+        padding:10px;
+
+    }
+
+}

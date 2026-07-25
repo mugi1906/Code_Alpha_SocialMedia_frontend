@@ -1,0 +1,123 @@
+.right-sidebar{
+
+    position:sticky;
+
+    top:85px;
+
+    height:fit-content;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.current-user{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:15px;
+
+    border:1px solid var(--border-color);
+
+    border-radius:12px;
+
+    background:#fff;
+
+}
+
+.current-user img{
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+}
+
+.current-user h4{
+
+    margin:0;
+
+    font-size:16px;
+
+}
+
+.current-user p{
+
+    margin-top:5px;
+
+    color:#666;
+
+    font-size:14px;
+
+}
+
+.sidebar-section{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+    padding:15px;
+
+    border:1px solid var(--border-color);
+
+    border-radius:12px;
+
+    background:#fff;
+
+}
+
+.sidebar-section h5{
+
+    margin-bottom:10px;
+
+}
+
+.sidebar-section a{
+
+    text-decoration:none;
+
+    color:#333;
+
+    font-size:15px;
+
+}
+
+.sidebar-section a:hover{
+
+    color:var(--primary-color);
+
+}
+
+.sidebar-footer{
+
+    text-align:center;
+
+    color:#888;
+
+    font-size:13px;
+
+}
+
+@media(max-width:1200px){
+
+    .right-sidebar{
+
+        display:none;
+
+    }
+
+}

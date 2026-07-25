@@ -1,0 +1,60 @@
+.follow-btn{
+
+    padding:8px 18px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#0095f6;
+
+    color:#fff;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.follow-btn:hover{
+
+    background:#1877f2;
+
+}
+
+.following-btn{
+
+    padding:8px 18px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    background:#fff;
+
+    color:#111;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.following-btn:hover{
+
+    background:#f5f5f5;
+
+}
+
+.follow-btn:disabled,
+.following-btn:disabled{
+
+    opacity:.6;
+
+    cursor:not-allowed;
+
+}

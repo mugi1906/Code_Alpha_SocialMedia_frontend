@@ -1,0 +1,17 @@
+.saved-page{
+
+    width:100%;
+
+    max-width:700px;
+
+    margin:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+    padding:20px 0;
+
+}

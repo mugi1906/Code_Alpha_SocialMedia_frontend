@@ -1,0 +1,27 @@
+:root{
+
+    --primary-color:#0095f6;
+
+    --primary-hover:#1877f2;
+
+    --background-color:#fafafa;
+
+    --white:#ffffff;
+
+    --black:#000000;
+
+    --text-color:#262626;
+
+    --border-color:#dbdbdb;
+
+    --danger:#ed4956;
+
+    --success:#42ba96;
+
+    --shadow:0 2px 12px rgba(0,0,0,.08);
+
+    --radius:12px;
+
+    --transition:.3s ease;
+
+}
