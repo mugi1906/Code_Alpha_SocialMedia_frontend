@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import "./Home.css";
 
 import MainLayout from "../../components/layout/MainLayout";
-import CreatePost from "../../components/post/CreatePost";
 import PostCard from "../../components/post/PostCard";
 import Loader from "../../components/common/Loader";
 import EmptyState from "../../components/common/EmptyState";

@@ -32,7 +32,7 @@ function BottomBar() {
             </NavLink>
 
             <NavLink
-                to="/"
+                to="/create"
                 className="bottom-link"
             >
                 <FaPlusSquare />
