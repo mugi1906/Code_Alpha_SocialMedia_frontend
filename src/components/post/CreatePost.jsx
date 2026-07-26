@@ -57,27 +57,34 @@ function CreatePost({ onPostCreated }) {
 
             }
 
-            await createPost(formData);
-
-             console.log(res);
+            const response = await createPost(formData);
+            console.log("1");
+            
 
             toast.success("Post created successfully.");
-
+            console.log("2");
             setContent("");
-
+console.log("3");
             setImage(null);
-
+console.log("4");
             setVideo(null);
-
+console.log("5");
             if (onPostCreated) {
 
                 onPostCreated();
 
             }
-
+console.log("6");
         }
 
         catch (error) {
+
+            console.log("========== ERROR ==========");
+            console.log(error);
+            console.log("message:", error.message);
+            console.log("response:", error.response);
+            console.log("data:", error.response?.data);
+            console.log("===========================");
 
             toast.error(
 
@@ -87,7 +94,7 @@ function CreatePost({ onPostCreated }) {
 
             );
 
-            console.log(error.response?.message)
+            console.log(error.message);
 
         }
 
