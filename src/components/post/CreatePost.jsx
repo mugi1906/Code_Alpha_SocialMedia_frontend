@@ -1,11 +1,13 @@
 import { useState } from "react";
 import "./CreatePost.css";
-
+import { useNavigate } from "react-router-dom";
 import { createPost } from "../../services/postApi";
 
 import toast from "react-hot-toast";
 
 function CreatePost({ onPostCreated }) {
+
+    const navigate = useNavigate();
 
     const [content, setContent] = useState("");
 
@@ -58,23 +60,23 @@ function CreatePost({ onPostCreated }) {
             }
 
             const response = await createPost(formData);
-            console.log("1");
-            
 
             toast.success("Post created successfully.");
-            console.log("2");
+  
             setContent("");
-console.log("3");
+
             setImage(null);
-console.log("4");
+
             setVideo(null);
-console.log("5");
+
+            navigate('/');
+
             if (onPostCreated) {
 
                 onPostCreated();
 
             }
-console.log("6");
+
         }
 
         catch (error) {
