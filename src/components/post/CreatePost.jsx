@@ -19,6 +19,12 @@ function CreatePost({ onPostCreated }) {
 
         e.preventDefault();
 
+        console.log("Button Clicked");
+
+        console.log(content);
+        console.log(image);
+        console.log(video);
+
         if (!content && !image && !video) {
 
             return toast.error(
@@ -30,6 +36,8 @@ function CreatePost({ onPostCreated }) {
         }
 
         try {
+
+            console.log("API Calling...");
 
             setLoading(true);
 
@@ -50,6 +58,8 @@ function CreatePost({ onPostCreated }) {
             }
 
             await createPost(formData);
+
+             console.log(res);
 
             toast.success("Post created successfully.");
 
@@ -76,6 +86,8 @@ function CreatePost({ onPostCreated }) {
                 "Failed to create post."
 
             );
+
+            console.log(error.response?.message)
 
         }
 
