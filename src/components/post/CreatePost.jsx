@@ -89,7 +89,10 @@ function CreatePost({ onPostCreated }) {
 
     return (
 
-        <div>
+        <form
+            className="create-post-form"
+            onSubmit={handleSubmit}
+        >
             <div className="post-content-box">
 
                 <label className="section-title">
@@ -192,7 +195,7 @@ function CreatePost({ onPostCreated }) {
             <br />
             <div className="create-post">
                 <button
-                    
+
                     type="submit"
                     disabled={loading}
                 >
@@ -210,7 +213,7 @@ function CreatePost({ onPostCreated }) {
 
                 </button>
             </div>
-        </div>
+        </form>
     );
 
 }
